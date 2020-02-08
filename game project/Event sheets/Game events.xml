@@ -6,7 +6,7 @@
         <event-block sid="451426885330981">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="967880597222791" type="comet">
-                    <param id="0" name="Object">yy</param>
+                    <param id="0" name="Object">skeleton</param>
                 </condition>
             </conditions>
             <actions>
@@ -43,7 +43,7 @@
         <event-block sid="687685371606128">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="380250481495387" type="comet">
-                    <param id="0" name="Object">e2</param>
+                    <param id="0" name="Object">wall</param>
                 </condition>
             </conditions>
             <actions>

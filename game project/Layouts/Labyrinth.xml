@@ -409,7 +409,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="e2" uid="1">
+                <instance type="wall" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -438,7 +438,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="4">
+                <instance type="wall" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -467,7 +467,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="5">
+                <instance type="wall" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -496,7 +496,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="6">
+                <instance type="wall" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -525,7 +525,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="7">
+                <instance type="wall" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -554,7 +554,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="8">
+                <instance type="wall" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -583,7 +583,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="9">
+                <instance type="wall" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -612,7 +612,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="10">
+                <instance type="wall" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -641,7 +641,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="11">
+                <instance type="wall" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -670,7 +670,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="12">
+                <instance type="wall" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -699,7 +699,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="14">
+                <instance type="skeleton" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -721,7 +721,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="15">
+                <instance type="skeleton" uid="15">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -743,7 +743,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="16">
+                <instance type="skeleton" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -765,7 +765,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="19">
+                <instance type="skeleton" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -787,7 +787,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="17">
+                <instance type="wall" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -816,7 +816,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="20">
+                <instance type="wall" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -845,7 +845,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="21">
+                <instance type="wall" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -874,7 +874,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="22">
+                <instance type="wall" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -903,7 +903,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="23">
+                <instance type="wall" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -932,7 +932,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="24">
+                <instance type="skeleton" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -954,7 +954,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="25">
+                <instance type="wall" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -983,7 +983,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="26">
+                <instance type="wall" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1012,7 +1012,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="27">
+                <instance type="wall" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1041,7 +1041,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="28">
+                <instance type="skeleton" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1063,7 +1063,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="29">
+                <instance type="skeleton" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1085,7 +1085,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="yy" uid="30">
+                <instance type="skeleton" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1107,7 +1107,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="31">
+                <instance type="wall" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1136,7 +1136,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="32">
+                <instance type="wall" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1165,7 +1165,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="33">
+                <instance type="wall" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1194,7 +1194,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="e2" uid="34">
+                <instance type="wall" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

@@ -70,7 +70,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="e2" sid="993076008955075">
+        <object-type name="wall" sid="993076008955075">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="415509511241414">
@@ -112,7 +112,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="yy" sid="450954783192404">
+        <object-type name="skeleton" sid="450954783192404">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144968354038543" speed="5">
