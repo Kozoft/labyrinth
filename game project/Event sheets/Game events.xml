@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Game events</name>
+    <events>
+        <event-block sid="451426885330981">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="967880597222791" type="comet">
+                    <param id="0" name="Object">yy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="937783918122824" type="comet">
+                    <param id="0" name="Y">480</param>
+                </action>
+                <action id="-1" name="Set X" sid="649487401721469" type="comet">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="377504194751858">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="378196365710426" type="comet">
+                    <param id="0" name="Object">coin</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="330538413888979" type="coin" />
+            </actions>
+        </event-block>
+        <event-block sid="583597667300826">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="220085104800005" type="comet">
+                    <param id="0" name="Object">yy3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="4" name="Set max speed" sid="345205530227529" type="comet">
+                    <param id="0" name="Max Speed">800</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="687685371606128">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="380250481495387" type="comet">
+                    <param id="0" name="Object">e2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="4" name="Set max speed" sid="547908515274647" type="comet">
+                    <param id="0" name="Max Speed">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="151035254703702">
+            <conditions>
+                <condition id="0" name="On click" sid="960848672440116" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="270556384751281" type="coin">
+                    <param id="0" name="X">random(0.1000)</param>
+                </action>
+                <action id="-2" name="Set Y" sid="231871718681468" type="coin">
+                    <param id="0" name="Y">random(0.1000)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="745159145498928">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="378920729983601" type="comet">
+                    <param id="0" name="Object">ujHyh</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="597547989867628" type="comet">
+                    <param id="0" name="Width">25</param>
+                    <param id="1" name="Height">25</param>
+                </action>
+                <action behavior="8Direction" id="4" name="Set max speed" sid="709610557887198" type="comet">
+                    <param id="0" name="Max Speed">400</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="548674695347532">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="345963341441464" type="comet">
+                    <param id="0" name="Object">tt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="671382192694492" type="comet">
+                    <param id="0" name="Width">50</param>
+                    <param id="1" name="Height">50</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
