@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Art events</name>
+    <events>
+        <event-block sid="399788999197438">
+            <conditions>
+                <condition id="0" name="On click" sid="886263209019150" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="713813272592646" type="e">
+                    <param id="0" name="Y">Mouse.Y</param>
+                </action>
+                <action id="-1" name="Set X" sid="976956578503401" type="e">
+                    <param id="0" name="X">Mouse.X</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="217606492724436">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="472777622276440" type="e">
+                    <param id="0" name="Object">e2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="739248029365151" type="e">
+                    <param id="0" name="Y">0</param>
+                </action>
+                <action id="-1" name="Set X" sid="171211079591175" type="e">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
