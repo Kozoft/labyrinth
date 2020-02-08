@@ -324,7 +324,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="eee" uid="37">
+                <instance type="finish" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

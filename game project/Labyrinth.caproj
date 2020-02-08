@@ -89,7 +89,7 @@
         <object-type name="Mouse" sid="247237561692082">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="eee" sid="472277414197402">
+        <object-type name="finish" sid="472277414197402">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952615931516240" speed="5">
