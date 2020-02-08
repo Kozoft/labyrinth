@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>844</x>
-                        <y>253</y>
+                        <x>940</x>
+                        <y>264</y>
                         <z>0</z>
                         <width>1700</width>
                         <height>1700</height>
@@ -64,17 +64,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -107,17 +107,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -150,17 +150,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -193,17 +193,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -236,17 +236,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -380,6 +380,116 @@
                     <world>
                         <x>348</x>
                         <y>533</y>
+                        <z>0</z>
+                        <width>15</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tt" uid="83">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>659</x>
+                        <y>462</y>
+                        <z>0</z>
+                        <width>15</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tt" uid="84">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>849</x>
+                        <y>388</y>
+                        <z>0</z>
+                        <width>15</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ujHyh" uid="85">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>593</x>
+                        <y>468</y>
+                        <z>0</z>
+                        <width>15</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ujHyh" uid="86">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>872</x>
+                        <y>161</y>
+                        <z>0</z>
+                        <width>15</width>
+                        <height>15</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tt" uid="87">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1137</x>
+                        <y>164</y>
                         <z>0</z>
                         <width>15</width>
                         <height>15</height>
@@ -716,7 +826,7 @@
                         <height>124</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -738,7 +848,7 @@
                         <height>67</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -760,7 +870,7 @@
                         <height>60</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -782,7 +892,7 @@
                         <height>81</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>-0.017516542</angle>
                         <opacity>1</opacity>
                     </world>
@@ -949,7 +1059,7 @@
                         <height>98</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>-0.006984618</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1058,7 +1168,7 @@
                         <height>68</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0.089690544</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1080,7 +1190,7 @@
                         <height>66</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0.080866188</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1102,7 +1212,7 @@
                         <height>91</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0.077132024</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1236,17 +1346,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1279,17 +1389,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1322,17 +1432,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1365,17 +1475,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1408,17 +1518,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1451,17 +1561,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1494,17 +1604,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1537,17 +1647,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1580,17 +1690,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1623,17 +1733,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1682,6 +1792,16 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>400</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1711,17 +1831,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1754,17 +1874,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1797,17 +1917,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1840,17 +1960,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1883,17 +2003,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1926,17 +2046,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -1969,17 +2089,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2012,17 +2132,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2055,17 +2175,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2098,17 +2218,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2141,17 +2261,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2184,17 +2304,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2227,17 +2347,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2270,17 +2390,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2313,17 +2433,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2356,17 +2476,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2399,17 +2519,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2442,17 +2562,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2485,17 +2605,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2528,17 +2648,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2571,17 +2691,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2614,17 +2734,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2657,17 +2777,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2700,17 +2820,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2743,17 +2863,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
@@ -2786,17 +2906,17 @@
                                 <active-on-start>Yes</active-on-start>
                                 <movement>Size</movement>
                                 <wave>Sine</wave>
-                                <period>3</period>
+                                <period>1</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
+                                <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
                             <properties>
-                                <speed>360</speed>
+                                <speed>35</speed>
                                 <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
