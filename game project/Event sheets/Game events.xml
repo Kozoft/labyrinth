@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Game events</name>
     <events>
+        <variable constant="0" name="coin" sid="869216389537392" static="0" type="number">15</variable>
         <event-block sid="451426885330981">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="967880597222791" type="comet">
@@ -25,7 +26,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="330538413888979" type="coin" />
+                <action behavior="Fade" id="1" name="Start fade" sid="330538413888979" type="coin" />
+                <action id="-11" name="Subtract from" sid="361429426034111" type="System">
+                    <param id="0" name="Variable">coin</param>
+                    <param id="1" name="Value">0.25</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="583597667300826">
@@ -40,34 +45,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="687685371606128">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="380250481495387" type="comet">
-                    <param id="0" name="Object">wall</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="8Direction" id="4" name="Set max speed" sid="547908515274647" type="comet">
-                    <param id="0" name="Max Speed">200</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="151035254703702">
-            <conditions>
-                <condition id="0" name="On click" sid="960848672440116" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" sid="270556384751281" type="coin">
-                    <param id="0" name="X">random(0.1000)</param>
-                </action>
-                <action id="-2" name="Set Y" sid="231871718681468" type="coin">
-                    <param id="0" name="Y">random(0.1000)</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="745159145498928">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="378920729983601" type="comet">
@@ -76,12 +53,13 @@
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="597547989867628" type="comet">
-                    <param id="0" name="Width">25</param>
-                    <param id="1" name="Height">25</param>
+                    <param id="0" name="Width">15</param>
+                    <param id="1" name="Height">15</param>
                 </action>
                 <action behavior="8Direction" id="4" name="Set max speed" sid="709610557887198" type="comet">
                     <param id="0" name="Max Speed">400</param>
                 </action>
+                <action id="-9" name="Destroy" sid="370387028208630" type="ujHyh" />
             </actions>
         </event-block>
         <event-block sid="548674695347532">
@@ -94,6 +72,24 @@
                 <action id="-7" name="Set size" sid="671382192694492" type="comet">
                     <param id="0" name="Width">50</param>
                     <param id="1" name="Height">50</param>
+                </action>
+                <action id="-9" name="Destroy" sid="906095419842507" type="tt" />
+            </actions>
+        </event-block>
+        <event-block sid="616242012145236">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="776413464950809" type="System">
+                    <param id="0" name="Variable">coin</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="974563330219990" type="fff">
+                    <param id="0" name="Y">675</param>
+                </action>
+                <action id="-1" name="Set X" sid="379663144992826" type="fff">
+                    <param id="0" name="X">1555</param>
                 </action>
             </actions>
         </event-block>
