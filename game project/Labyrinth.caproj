@@ -18,9 +18,11 @@
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -75,14 +77,13 @@
         <object-type name="wall" sid="993076008955075">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="415509511241414">
+                <behavior-type name="Solid" sid="617446399847746">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="2" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="100477355505370" speed="5">
+                <animation framecount="1" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="100477355505370" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -109,6 +110,11 @@
         </object-type>
         <object-type name="e3" sid="868347876324156">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="145374577109252">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402310505862279" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-4.png" />
@@ -120,11 +126,21 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144968354038543" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.46875" original-source="C:\home\vova\sprites\скелет-3.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 2" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 3" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 4" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 5" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 6" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 7" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 8" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 9" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 10" x="0.5" y="0.53125" />
                         <collision-poly>
                             <point x="1" y="0" />
                             <point x="0" y="0" />
                             <point x="0" y="1" />
-                            <point x="1" y="1" />
+                            <point x="0.992188" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -149,10 +165,10 @@
                         <image-point name="Imagepoint 1" x="0.5" y="0.5" />
                         <image-point name="Imagepoint 2" x="0.76" y="0.5" />
                         <collision-poly>
-                            <point x="0.284" y="0.0840001" />
-                            <point x="0.848" y="0.072" />
-                            <point x="1" y="0.939999" />
-                            <point x="0" y="0.952" />
+                            <point x="0.3" y="0.0840001" />
+                            <point x="0.82" y="0.0800001" />
+                            <point x="0.992" y="0.952" />
+                            <point x="0" y="0.948001" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -177,6 +193,9 @@
                 </behavior-type>
                 <behavior-type name="8Direction" sid="502816261606985">
                     <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="466335886849053">
+                    <behavior id="Platform" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -233,14 +252,18 @@
         </object-type>
         <object-type name="ujHyh" sid="347619884552035">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="537888704074666">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770080038566881" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
+                            <point x="0.988" y="0.576" />
+                            <point x="0.984" y="0.216" />
+                            <point x="0" y="0.412" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -248,6 +271,11 @@
         </object-type>
         <object-type name="tt" sid="498886385632813">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="105201632744891">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745379465778975" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -271,11 +299,6 @@
         </object-type>
         <object-type name="fff" sid="533374742740892">
             <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Solid" sid="626603966580446">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <texture />
         </object-type>
         <object-type name="rrrr" sid="102785420232818">
@@ -295,6 +318,11 @@
         </object-type>
         <object-type name="gggg" sid="240413912945846">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="207764457799475">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="905329691546364" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -308,13 +336,293 @@
                         <image-point name="Imagepoint 8" x="0.5" y="0.5" />
                         <image-point name="Imagepoint 9" x="0.02" y="0.968" />
                         <collision-poly>
-                            <point x="0.516" y="0.028" />
-                            <point x="0.976" y="0.952" />
-                            <point x="0" y="0.94" />
+                            <point x="0.484" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="u" sid="867338232115825">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="208016213927229" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\скелет-3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="7y6yt" sid="394048121559567">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578925793191510" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yyydesrt3we" sid="723179974128554">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="564803601633428" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.432" y="0.232" />
+                            <point x="0.792" y="0.232" />
+                            <point x="0.452" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.356" y="0.272" />
+                            <point x="0.408" y="1" />
+                            <point x="0.804" y="0.3" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="q55" sid="393448249996490">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="355718915181987">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703542770842984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="к" sid="755873099480479">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="574578900618858" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="a" sid="638313109610787">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="820979456377804">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270647522070654" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="s" sid="471322886309192">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="935990097505440">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="277663849218286">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="482849400078845" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="d" sid="248735762714006">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="535643928360745" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="f" sid="899090046163223">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="419639224312635">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741757472738110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-3.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 2" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 3" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 4" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 5" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 6" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 7" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 8" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 9" x="0.5" y="0.5" />
+                        <image-point name="Imagepoint 10" x="0.3125" y="0.375" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="y" sid="705359039531339">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155541506099448" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yyyyyyyyyyyyyy" sid="853420985581749">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="t" sid="249605206338960">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="имтдлжпаврншгкплго" sid="219101940928072">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="818621214182203" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ttt" sid="392407227258618">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="843771240622841">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385975237464182" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ккк" sid="644536239850962">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="380900628183247">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="329449832367823" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="кккк" sid="347934527976796">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546069001737340" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hhg" sid="502743978131877">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="515477738729453">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569165867296126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jj" sid="791034017394387">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780445350280008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hhhj" sid="472267349678876">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="295952650395562">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386185607029954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="0jk" sid="753060572273718">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858000220406210" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="0.464" />
+                            <point x="1" y="0.372" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="uu" sid="925594334442487">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="857782070468917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="uuu" sid="949453050678430">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="156585352085311">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="285311358439164" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\home\vova\sprites\стены-кирпич-1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ttttt" sid="510493854126523">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="254299137689981" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ee" sid="808304209991155">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="ее" sid="428368263625200">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891364970328721" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tt2" sid="165337186018827">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657708423031260" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ttttt2" sid="704140116593396">
+            <plugin id="Spritefont2" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
